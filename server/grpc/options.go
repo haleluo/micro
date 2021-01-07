@@ -5,12 +5,12 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/go-micro/v2/transport"
+	"fmgo.io/microv2/go-micro/v2/auth"
+	"fmgo.io/microv2/go-micro/v2/broker"
+	"fmgo.io/microv2/go-micro/v2/codec"
+	"fmgo.io/microv2/go-micro/v2/registry"
+	"fmgo.io/microv2/go-micro/v2/server"
+	"fmgo.io/microv2/go-micro/v2/transport"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
 )

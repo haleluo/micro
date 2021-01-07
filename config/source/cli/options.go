@@ -3,8 +3,8 @@ package cli
 import (
 	"context"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/config/source"
+	"fmgo.io/microv2/cli/v2"
+	"fmgo.io/microv2/go-micro/v2/config/source"
 )
 
 type contextKey struct{}

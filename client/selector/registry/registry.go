@@ -2,7 +2,7 @@
 package registry
 
 import (
-	"github.com/micro/go-micro/v2/client/selector"
+	"fmgo.io/microv2/go-micro/v2/client/selector"
 )
 
 // NewSelector returns a new registry selector

@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/server"
+	"fmgo.io/microv2/go-micro/v2/client"
+	"fmgo.io/microv2/go-micro/v2/codec"
+	"fmgo.io/microv2/go-micro/v2/metadata"
+	"fmgo.io/microv2/go-micro/v2/server"
 )
 
 type Stream interface {

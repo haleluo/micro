@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/ef-ds/deque"
-	"github.com/micro/go-micro/v2/store"
+	"fmgo.io/microv2/go-micro/v2/store"
 	"github.com/pkg/errors"
 )
 

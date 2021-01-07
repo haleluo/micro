@@ -7,11 +7,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/router"
-	pb "github.com/micro/go-micro/v2/router/service/proto"
+	"fmgo.io/microv2/go-micro/v2/client"
+	"fmgo.io/microv2/go-micro/v2/client/selector"
+	"fmgo.io/microv2/go-micro/v2/registry"
+	"fmgo.io/microv2/go-micro/v2/router"
+	pb "fmgo.io/microv2/go-micro/v2/router/service/proto"
 )
 
 type routerSelector struct {

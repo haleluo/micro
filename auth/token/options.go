@@ -3,7 +3,7 @@ package token
 import (
 	"time"
 
-	"github.com/micro/go-micro/v2/store"
+	"fmgo.io/microv2/go-micro/v2/store"
 )
 
 type Options struct {

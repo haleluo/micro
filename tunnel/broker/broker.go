@@ -4,9 +4,9 @@ package broker
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/transport"
-	"github.com/micro/go-micro/v2/tunnel"
+	"fmgo.io/microv2/go-micro/v2/broker"
+	"fmgo.io/microv2/go-micro/v2/transport"
+	"fmgo.io/microv2/go-micro/v2/tunnel"
 )
 
 type tunBroker struct {

@@ -6,11 +6,11 @@ import (
 	"io"
 	"strings"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/grpc"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/proxy"
-	"github.com/micro/go-micro/v2/server"
+	"fmgo.io/microv2/go-micro/v2/client"
+	"fmgo.io/microv2/go-micro/v2/client/grpc"
+	"fmgo.io/microv2/go-micro/v2/codec"
+	"fmgo.io/microv2/go-micro/v2/proxy"
+	"fmgo.io/microv2/go-micro/v2/server"
 )
 
 // Proxy will transparently proxy requests to the backend.

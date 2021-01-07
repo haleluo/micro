@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/store"
+	"fmgo.io/microv2/go-micro/v2/logger"
+	"fmgo.io/microv2/go-micro/v2/store"
 	"github.com/pkg/errors"
 )
 

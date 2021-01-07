@@ -2,7 +2,7 @@ package auth
 
 import (
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/auth/provider/basic"
+	"fmgo.io/microv2/go-micro/v2/auth/provider/basic"
 )
 
 var (

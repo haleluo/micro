@@ -3,9 +3,9 @@ package server
 import (
 	"bytes"
 
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/transport"
-	"github.com/micro/go-micro/v2/util/buf"
+	"fmgo.io/microv2/go-micro/v2/codec"
+	"fmgo.io/microv2/go-micro/v2/transport"
+	"fmgo.io/microv2/go-micro/v2/util/buf"
 )
 
 type rpcRequest struct {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/config/source"
-	proto "github.com/micro/go-micro/v2/config/source/service/proto"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/logger"
+	"fmgo.io/microv2/go-micro/v2/client"
+	"fmgo.io/microv2/go-micro/v2/config/source"
+	proto "fmgo.io/microv2/go-micro/v2/config/source/service/proto"
+	"fmgo.io/microv2/go-micro/v2/errors"
+	"fmgo.io/microv2/go-micro/v2/logger"
 )
 
 var (

@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/config/reader"
-	"github.com/micro/go-micro/v2/config/source"
+	"fmgo.io/microv2/go-micro/v2/config/reader"
+	"fmgo.io/microv2/go-micro/v2/config/source"
 )
 
 // Loader manages loading sources

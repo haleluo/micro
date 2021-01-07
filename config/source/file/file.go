@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/micro/go-micro/v2/config/source"
+	"fmgo.io/microv2/go-micro/v2/config/source"
 )
 
 type file struct {

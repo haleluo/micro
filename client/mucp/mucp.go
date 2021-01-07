@@ -2,7 +2,7 @@
 package mucp
 
 import (
-	"github.com/micro/go-micro/v2/client"
+	"fmgo.io/microv2/go-micro/v2/client"
 )
 
 // NewClient returns a new micro client interface

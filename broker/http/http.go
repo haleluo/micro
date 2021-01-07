@@ -2,7 +2,7 @@
 package http
 
 import (
-	"github.com/micro/go-micro/v2/broker"
+	"fmgo.io/microv2/go-micro/v2/broker"
 )
 
 // NewBroker returns a new http broker

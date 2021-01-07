@@ -2,7 +2,7 @@
 package mucp
 
 import (
-	"github.com/micro/go-micro/v2/server"
+	"fmgo.io/microv2/go-micro/v2/server"
 )
 
 // NewServer returns a micro server interface

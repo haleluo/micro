@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/transport"
-	"github.com/micro/go-micro/v2/transport/quic"
+	"fmgo.io/microv2/go-micro/v2/logger"
+	"fmgo.io/microv2/go-micro/v2/transport"
+	"fmgo.io/microv2/go-micro/v2/transport/quic"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/memory"
+	"fmgo.io/microv2/go-micro/v2/registry"
+	"fmgo.io/microv2/go-micro/v2/registry/memory"
 )
 
 func TestRoundTripper(t *testing.T) {

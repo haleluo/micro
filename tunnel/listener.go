@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/micro/go-micro/v2/logger"
+	"fmgo.io/microv2/go-micro/v2/logger"
 )
 
 type tunListener struct {

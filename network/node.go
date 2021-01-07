@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	pb "github.com/micro/go-micro/v2/network/service/proto"
+	pb "fmgo.io/microv2/go-micro/v2/network/service/proto"
 )
 
 var (

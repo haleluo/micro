@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/v2/config"
-	"github.com/micro/go-micro/v2/config/source/file"
+	"fmgo.io/microv2/go-micro/v2/config"
+	"fmgo.io/microv2/go-micro/v2/config/source/file"
 )
 
 func TestConfig(t *testing.T) {

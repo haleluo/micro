@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/registry"
+	"fmgo.io/microv2/cli/v2"
+	"fmgo.io/microv2/go-micro/v2"
+	"fmgo.io/microv2/go-micro/v2/registry"
 )
 
 //Options for web

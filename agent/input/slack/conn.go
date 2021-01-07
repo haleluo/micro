@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/agent/input"
+	"fmgo.io/microv2/go-micro/v2/agent/input"
 	"github.com/nlopes/slack"
 )
 

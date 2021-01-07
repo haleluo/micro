@@ -3,8 +3,8 @@ package server
 import (
 	"net/http"
 
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/transport"
+	"fmgo.io/microv2/go-micro/v2/codec"
+	"fmgo.io/microv2/go-micro/v2/transport"
 )
 
 type rpcResponse struct {

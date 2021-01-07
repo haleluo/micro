@@ -2,7 +2,7 @@
 package input
 
 import (
-	"github.com/micro/cli/v2"
+	"fmgo.io/microv2/cli/v2"
 )
 
 type EventType string

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/v2/registry"
+	"fmgo.io/microv2/go-micro/v2/registry"
 )
 
 var (

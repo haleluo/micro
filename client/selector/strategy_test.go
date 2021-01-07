@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/micro/go-micro/v2/registry"
+	"fmgo.io/microv2/go-micro/v2/registry"
 )
 
 func TestStrategies(t *testing.T) {

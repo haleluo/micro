@@ -4,10 +4,10 @@ package config
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/config/loader"
-	"github.com/micro/go-micro/v2/config/reader"
-	"github.com/micro/go-micro/v2/config/source"
-	"github.com/micro/go-micro/v2/config/source/file"
+	"fmgo.io/microv2/go-micro/v2/config/loader"
+	"fmgo.io/microv2/go-micro/v2/config/reader"
+	"fmgo.io/microv2/go-micro/v2/config/source"
+	"fmgo.io/microv2/go-micro/v2/config/source/file"
 )
 
 // Config is an interface abstraction for dynamic configuration
