@@ -28,7 +28,7 @@ require (
 	github.com/google/uuid v1.1.2
 	github.com/gorilla/handlers v1.5.1
 	github.com/hashicorp/hcl v1.0.0
-	github.com/hpcloud/tail v1.0.0
+	github.com/hpcloud/tail v1.0.1-0.20180514194441-a1dbeea552b7
 	github.com/imdario/mergo v0.3.11
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/kr/pretty v0.2.1
@@ -51,4 +51,5 @@ require (
 	google.golang.org/genproto v0.0.0-20201021134325-0d71844de594
 	google.golang.org/grpc v1.29.1
 	google.golang.org/protobuf v1.25.0
+	gopkg.in/fsnotify/fsnotify.v1 v1.4.7 // indirect
 )
