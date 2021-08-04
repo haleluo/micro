@@ -3,7 +3,7 @@ package xml
 import (
 	"encoding/xml"
 
-	"fmgo.io/microv2/go-micro/v2/config/encoder"
+	"github.com/haleluo/micro/v2/config/encoder"
 )
 
 type xmlEncoder struct{}

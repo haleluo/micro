@@ -11,7 +11,7 @@ import (
 
 	client "go.etcd.io/etcd/clientv3"
 	cc "go.etcd.io/etcd/clientv3/concurrency"
-	"fmgo.io/microv2/go-micro/v2/sync"
+	"github.com/haleluo/micro/v2/sync"
 )
 
 type etcdSync struct {

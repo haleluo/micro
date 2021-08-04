@@ -18,13 +18,13 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"fmgo.io/microv2/go-micro/v2/codec/json"
-	merr "fmgo.io/microv2/go-micro/v2/errors"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	"fmgo.io/microv2/go-micro/v2/registry/cache"
-	maddr "fmgo.io/microv2/go-micro/v2/util/addr"
-	mnet "fmgo.io/microv2/go-micro/v2/util/net"
-	mls "fmgo.io/microv2/go-micro/v2/util/tls"
+	"github.com/haleluo/micro/v2/codec/json"
+	merr "github.com/haleluo/micro/v2/errors"
+	"github.com/haleluo/micro/v2/registry"
+	"github.com/haleluo/micro/v2/registry/cache"
+	maddr "github.com/haleluo/micro/v2/util/addr"
+	mnet "github.com/haleluo/micro/v2/util/net"
+	mls "github.com/haleluo/micro/v2/util/tls"
 	"golang.org/x/net/http2"
 )
 

@@ -1,12 +1,12 @@
 package reader
 
 import (
-	"fmgo.io/microv2/go-micro/v2/config/encoder"
-	"fmgo.io/microv2/go-micro/v2/config/encoder/hcl"
-	"fmgo.io/microv2/go-micro/v2/config/encoder/json"
-	"fmgo.io/microv2/go-micro/v2/config/encoder/toml"
-	"fmgo.io/microv2/go-micro/v2/config/encoder/xml"
-	"fmgo.io/microv2/go-micro/v2/config/encoder/yaml"
+	"github.com/haleluo/micro/v2/config/encoder"
+	"github.com/haleluo/micro/v2/config/encoder/hcl"
+	"github.com/haleluo/micro/v2/config/encoder/json"
+	"github.com/haleluo/micro/v2/config/encoder/toml"
+	"github.com/haleluo/micro/v2/config/encoder/xml"
+	"github.com/haleluo/micro/v2/config/encoder/yaml"
 )
 
 type Options struct {

@@ -7,12 +7,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"fmgo.io/microv2/go-micro/v2/broker"
-	"fmgo.io/microv2/go-micro/v2/errors"
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/metadata"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/broker"
+	"github.com/haleluo/micro/v2/errors"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/metadata"
+	"github.com/haleluo/micro/v2/registry"
+	"github.com/haleluo/micro/v2/server"
 )
 
 const (

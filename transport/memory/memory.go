@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/transport"
-	maddr "fmgo.io/microv2/go-micro/v2/util/addr"
-	mnet "fmgo.io/microv2/go-micro/v2/util/net"
+	"github.com/haleluo/micro/v2/transport"
+	maddr "github.com/haleluo/micro/v2/util/addr"
+	mnet "github.com/haleluo/micro/v2/util/net"
 )
 
 type memorySocket struct {

@@ -4,7 +4,7 @@ package pool
 import (
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 // Pool is an interface for connection pooling

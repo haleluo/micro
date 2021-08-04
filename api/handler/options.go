@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"fmgo.io/microv2/go-micro/v2/api/router"
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/client/grpc"
+	"github.com/haleluo/micro/v2/api/router"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/client/grpc"
 )
 
 var (

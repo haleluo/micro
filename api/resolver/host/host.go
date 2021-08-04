@@ -4,7 +4,7 @@ package host
 import (
 	"net/http"
 
-	"fmgo.io/microv2/go-micro/v2/api/resolver"
+	"github.com/haleluo/micro/v2/api/resolver"
 )
 
 type Resolver struct {

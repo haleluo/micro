@@ -7,10 +7,10 @@ import (
 	"strings"
 	"sync"
 
-	"fmgo.io/microv2/go-micro/v2/broker"
-	"fmgo.io/microv2/go-micro/v2/codec/json"
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/registry"
+	"github.com/haleluo/micro/v2/broker"
+	"github.com/haleluo/micro/v2/codec/json"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/registry"
 	nats "github.com/nats-io/nats.go"
 )
 

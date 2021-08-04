@@ -2,8 +2,8 @@
 package proto
 
 import (
-	"fmgo.io/microv2/go-micro/v2/router"
-	pbRtr "fmgo.io/microv2/go-micro/v2/router/service/proto"
+	"github.com/haleluo/micro/v2/router"
+	pbRtr "github.com/haleluo/micro/v2/router/service/proto"
 )
 
 // RouteToProto encodes route into protobuf and returns it

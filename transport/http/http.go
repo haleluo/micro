@@ -2,7 +2,7 @@
 package http
 
 import (
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 // NewTransport returns a new http transport using net/http and supporting http2

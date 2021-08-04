@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/auth"
-	"fmgo.io/microv2/go-micro/v2/broker"
-	"fmgo.io/microv2/go-micro/v2/codec"
-	"fmgo.io/microv2/go-micro/v2/debug/trace"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/auth"
+	"github.com/haleluo/micro/v2/broker"
+	"github.com/haleluo/micro/v2/codec"
+	"github.com/haleluo/micro/v2/debug/trace"
+	"github.com/haleluo/micro/v2/registry"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 type Options struct {

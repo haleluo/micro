@@ -4,7 +4,7 @@ package socket
 import (
 	"io"
 
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 // Socket is our pseudo socket for transport.Socket

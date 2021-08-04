@@ -3,7 +3,7 @@
 package secretbox
 
 import (
-	"fmgo.io/microv2/go-micro/v2/config/secrets"
+	"github.com/haleluo/micro/v2/config/secrets"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/nacl/secretbox"
 

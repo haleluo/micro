@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/codec"
+	"github.com/haleluo/micro/v2/codec"
 )
 
 // Client is the interface used to make requests to services.

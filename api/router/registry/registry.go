@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/api"
-	"fmgo.io/microv2/go-micro/v2/api/router"
-	"fmgo.io/microv2/go-micro/v2/api/router/util"
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/metadata"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	"fmgo.io/microv2/go-micro/v2/registry/cache"
+	"github.com/haleluo/micro/v2/api"
+	"github.com/haleluo/micro/v2/api/router"
+	"github.com/haleluo/micro/v2/api/router/util"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/metadata"
+	"github.com/haleluo/micro/v2/registry"
+	"github.com/haleluo/micro/v2/registry/cache"
 )
 
 // endpoint struct, that holds compiled pcre

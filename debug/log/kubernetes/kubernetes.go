@@ -1,4 +1,4 @@
-// Package kubernetes is a logger implementing (fmgo.io/microv2/go-micro/v2/debug/log).Log
+// Package kubernetes is a logger implementing (github.com/haleluo/micro/v2/debug/log).Log
 package kubernetes
 
 import (
@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/debug/log"
-	"fmgo.io/microv2/go-micro/v2/util/kubernetes/client"
+	"github.com/haleluo/micro/v2/debug/log"
+	"github.com/haleluo/micro/v2/util/kubernetes/client"
 )
 
 type klog struct {

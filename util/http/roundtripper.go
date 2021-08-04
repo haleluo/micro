@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"fmgo.io/microv2/go-micro/v2/client/selector"
+	"github.com/haleluo/micro/v2/client/selector"
 )
 
 type roundTripper struct {

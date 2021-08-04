@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"fmgo.io/microv2/go-micro/v2/registry"
+	"github.com/haleluo/micro/v2/registry"
 )
 
 func extractValue(v reflect.Type, d int) *registry.Value {

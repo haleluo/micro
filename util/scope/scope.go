@@ -3,7 +3,7 @@ package scope
 import (
 	"fmt"
 
-	"fmgo.io/microv2/go-micro/v2/store"
+	"github.com/haleluo/micro/v2/store"
 )
 
 // Scope extends the store, applying a prefix to each request

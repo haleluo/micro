@@ -15,8 +15,8 @@ import (
 
 	"go.etcd.io/etcd/clientv3"
 	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/registry"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/registry"
 	hash "github.com/mitchellh/hashstructure"
 	"go.uber.org/zap"
 )

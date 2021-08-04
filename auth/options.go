@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/auth/provider"
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/store"
+	"github.com/haleluo/micro/v2/auth/provider"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/store"
 )
 
 func NewOptions(opts ...Option) Options {

@@ -6,13 +6,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2/api/handler"
-	"fmgo.io/microv2/go-micro/v2/api/resolver"
-	"fmgo.io/microv2/go-micro/v2/api/resolver/vpath"
-	"fmgo.io/microv2/go-micro/v2/api/router"
-	regRouter "fmgo.io/microv2/go-micro/v2/api/router/registry"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	"fmgo.io/microv2/go-micro/v2/registry/memory"
+	"github.com/haleluo/micro/v2/api/handler"
+	"github.com/haleluo/micro/v2/api/resolver"
+	"github.com/haleluo/micro/v2/api/resolver/vpath"
+	"github.com/haleluo/micro/v2/api/router"
+	regRouter "github.com/haleluo/micro/v2/api/router/registry"
+	"github.com/haleluo/micro/v2/registry"
+	"github.com/haleluo/micro/v2/registry/memory"
 )
 
 func testHttp(t *testing.T, path, service, ns string) {

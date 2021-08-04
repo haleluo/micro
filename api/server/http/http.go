@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	"github.com/gorilla/handlers"
-	"fmgo.io/microv2/go-micro/v2/api/server"
-	"fmgo.io/microv2/go-micro/v2/api/server/cors"
-	"fmgo.io/microv2/go-micro/v2/logger"
+	"github.com/haleluo/micro/v2/api/server"
+	"github.com/haleluo/micro/v2/api/server/cors"
+	"github.com/haleluo/micro/v2/logger"
 )
 
 type httpServer struct {

@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"fmgo.io/microv2/cli/v2"
-	"fmgo.io/microv2/go-micro/v2"
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/web"
+	"github.com/haleluo/micro-cli/v2"
+	"github.com/haleluo/micro/v2"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/web"
 )
 
 func TestWeb(t *testing.T) {

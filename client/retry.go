@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"fmgo.io/microv2/go-micro/v2/errors"
+	"github.com/haleluo/micro/v2/errors"
 )
 
 // note that returning either false or a non-nil error will result in the call not being retried

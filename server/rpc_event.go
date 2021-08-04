@@ -1,8 +1,8 @@
 package server
 
 import (
-	"fmgo.io/microv2/go-micro/v2/broker"
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/broker"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 // event is a broker event we handle on the server transport

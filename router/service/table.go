@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/router"
-	pb "fmgo.io/microv2/go-micro/v2/router/service/proto"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/router"
+	pb "github.com/haleluo/micro/v2/router/service/proto"
 )
 
 type table struct {

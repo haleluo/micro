@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"fmgo.io/microv2/go-micro/v2/registry"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/registry"
+	"github.com/haleluo/micro/v2/server"
 )
 
 type Api interface {

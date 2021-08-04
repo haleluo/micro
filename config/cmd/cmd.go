@@ -7,80 +7,80 @@ import (
 	"strings"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/auth"
-	"fmgo.io/microv2/go-micro/v2/auth/provider"
-	"fmgo.io/microv2/go-micro/v2/broker"
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/client/grpc"
-	"fmgo.io/microv2/go-micro/v2/client/selector"
-	"fmgo.io/microv2/go-micro/v2/config"
-	configSrc "fmgo.io/microv2/go-micro/v2/config/source"
-	configSrv "fmgo.io/microv2/go-micro/v2/config/source/service"
-	"fmgo.io/microv2/go-micro/v2/debug/profile"
-	"fmgo.io/microv2/go-micro/v2/debug/profile/http"
-	"fmgo.io/microv2/go-micro/v2/debug/profile/pprof"
-	"fmgo.io/microv2/go-micro/v2/debug/trace"
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	registrySrv "fmgo.io/microv2/go-micro/v2/registry/service"
-	"fmgo.io/microv2/go-micro/v2/runtime"
-	"fmgo.io/microv2/go-micro/v2/server"
-	"fmgo.io/microv2/go-micro/v2/store"
-	"fmgo.io/microv2/go-micro/v2/transport"
-	authutil "fmgo.io/microv2/go-micro/v2/util/auth"
-	"fmgo.io/microv2/go-micro/v2/util/wrapper"
+	"github.com/haleluo/micro/v2/auth"
+	"github.com/haleluo/micro/v2/auth/provider"
+	"github.com/haleluo/micro/v2/broker"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/client/grpc"
+	"github.com/haleluo/micro/v2/client/selector"
+	"github.com/haleluo/micro/v2/config"
+	configSrc "github.com/haleluo/micro/v2/config/source"
+	configSrv "github.com/haleluo/micro/v2/config/source/service"
+	"github.com/haleluo/micro/v2/debug/profile"
+	"github.com/haleluo/micro/v2/debug/profile/http"
+	"github.com/haleluo/micro/v2/debug/profile/pprof"
+	"github.com/haleluo/micro/v2/debug/trace"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/registry"
+	registrySrv "github.com/haleluo/micro/v2/registry/service"
+	"github.com/haleluo/micro/v2/runtime"
+	"github.com/haleluo/micro/v2/server"
+	"github.com/haleluo/micro/v2/store"
+	"github.com/haleluo/micro/v2/transport"
+	authutil "github.com/haleluo/micro/v2/util/auth"
+	"github.com/haleluo/micro/v2/util/wrapper"
 
 	// clients
-	cgrpc "fmgo.io/microv2/go-micro/v2/client/grpc"
-	cmucp "fmgo.io/microv2/go-micro/v2/client/mucp"
+	cgrpc "github.com/haleluo/micro/v2/client/grpc"
+	cmucp "github.com/haleluo/micro/v2/client/mucp"
 
 	// servers
-	"fmgo.io/microv2/cli/v2"
+	"github.com/haleluo/micro-cli/v2"
 
-	sgrpc "fmgo.io/microv2/go-micro/v2/server/grpc"
-	smucp "fmgo.io/microv2/go-micro/v2/server/mucp"
+	sgrpc "github.com/haleluo/micro/v2/server/grpc"
+	smucp "github.com/haleluo/micro/v2/server/mucp"
 
 	// brokers
-	brokerHttp "fmgo.io/microv2/go-micro/v2/broker/http"
-	"fmgo.io/microv2/go-micro/v2/broker/memory"
-	"fmgo.io/microv2/go-micro/v2/broker/nats"
-	brokerSrv "fmgo.io/microv2/go-micro/v2/broker/service"
+	brokerHttp "github.com/haleluo/micro/v2/broker/http"
+	"github.com/haleluo/micro/v2/broker/memory"
+	"github.com/haleluo/micro/v2/broker/nats"
+	brokerSrv "github.com/haleluo/micro/v2/broker/service"
 
 	// registries
-	"fmgo.io/microv2/go-micro/v2/registry/etcd"
-	"fmgo.io/microv2/go-micro/v2/registry/mdns"
-	rmem "fmgo.io/microv2/go-micro/v2/registry/memory"
-	regSrv "fmgo.io/microv2/go-micro/v2/registry/service"
+	"github.com/haleluo/micro/v2/registry/etcd"
+	"github.com/haleluo/micro/v2/registry/mdns"
+	rmem "github.com/haleluo/micro/v2/registry/memory"
+	regSrv "github.com/haleluo/micro/v2/registry/service"
 
 	// runtimes
-	kRuntime "fmgo.io/microv2/go-micro/v2/runtime/kubernetes"
-	lRuntime "fmgo.io/microv2/go-micro/v2/runtime/local"
-	srvRuntime "fmgo.io/microv2/go-micro/v2/runtime/service"
+	kRuntime "github.com/haleluo/micro/v2/runtime/kubernetes"
+	lRuntime "github.com/haleluo/micro/v2/runtime/local"
+	srvRuntime "github.com/haleluo/micro/v2/runtime/service"
 
 	// selectors
-	"fmgo.io/microv2/go-micro/v2/client/selector/dns"
-	"fmgo.io/microv2/go-micro/v2/client/selector/router"
-	"fmgo.io/microv2/go-micro/v2/client/selector/static"
+	"github.com/haleluo/micro/v2/client/selector/dns"
+	"github.com/haleluo/micro/v2/client/selector/router"
+	"github.com/haleluo/micro/v2/client/selector/static"
 
 	// transports
-	thttp "fmgo.io/microv2/go-micro/v2/transport/http"
-	tmem "fmgo.io/microv2/go-micro/v2/transport/memory"
+	thttp "github.com/haleluo/micro/v2/transport/http"
+	tmem "github.com/haleluo/micro/v2/transport/memory"
 
 	// stores
-	memStore "fmgo.io/microv2/go-micro/v2/store/memory"
-	svcStore "fmgo.io/microv2/go-micro/v2/store/service"
+	memStore "github.com/haleluo/micro/v2/store/memory"
+	svcStore "github.com/haleluo/micro/v2/store/service"
 
 	// tracers
-	// jTracer "fmgo.io/microv2/go-micro/v2/debug/trace/jaeger"
-	memTracer "fmgo.io/microv2/go-micro/v2/debug/trace/memory"
+	// jTracer "github.com/haleluo/micro/v2/debug/trace/jaeger"
+	memTracer "github.com/haleluo/micro/v2/debug/trace/memory"
 
 	// auth
-	jwtAuth "fmgo.io/microv2/go-micro/v2/auth/jwt"
-	svcAuth "fmgo.io/microv2/go-micro/v2/auth/service"
+	jwtAuth "github.com/haleluo/micro/v2/auth/jwt"
+	svcAuth "github.com/haleluo/micro/v2/auth/service"
 
 	// auth providers
-	"fmgo.io/microv2/go-micro/v2/auth/provider/basic"
-	"fmgo.io/microv2/go-micro/v2/auth/provider/oauth"
+	"github.com/haleluo/micro/v2/auth/provider/basic"
+	"github.com/haleluo/micro/v2/auth/provider/oauth"
 )
 
 type Cmd interface {

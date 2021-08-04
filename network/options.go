@@ -2,12 +2,12 @@ package network
 
 import (
 	"github.com/google/uuid"
-	"fmgo.io/microv2/go-micro/v2/network/resolver"
-	"fmgo.io/microv2/go-micro/v2/network/resolver/registry"
-	"fmgo.io/microv2/go-micro/v2/proxy"
-	"fmgo.io/microv2/go-micro/v2/proxy/mucp"
-	"fmgo.io/microv2/go-micro/v2/router"
-	"fmgo.io/microv2/go-micro/v2/tunnel"
+	"github.com/haleluo/micro/v2/network/resolver"
+	"github.com/haleluo/micro/v2/network/resolver/registry"
+	"github.com/haleluo/micro/v2/proxy"
+	"github.com/haleluo/micro/v2/proxy/mucp"
+	"github.com/haleluo/micro/v2/router"
+	"github.com/haleluo/micro/v2/tunnel"
 )
 
 type Option func(*Options)

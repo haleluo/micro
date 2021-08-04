@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"fmgo.io/microv2/go-micro/v2/client"
+	"github.com/haleluo/micro/v2/client"
 )
 
 type Option func(o *Options)

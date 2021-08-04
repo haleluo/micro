@@ -3,9 +3,9 @@ package source
 import (
 	"context"
 
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/config/encoder"
-	"fmgo.io/microv2/go-micro/v2/config/encoder/json"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/config/encoder"
+	"github.com/haleluo/micro/v2/config/encoder/json"
 )
 
 type Options struct {

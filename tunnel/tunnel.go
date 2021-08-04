@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 const (

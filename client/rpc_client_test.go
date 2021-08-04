@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2/client/selector"
-	"fmgo.io/microv2/go-micro/v2/errors"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	"fmgo.io/microv2/go-micro/v2/registry/memory"
+	"github.com/haleluo/micro/v2/client/selector"
+	"github.com/haleluo/micro/v2/errors"
+	"github.com/haleluo/micro/v2/registry"
+	"github.com/haleluo/micro/v2/registry/memory"
 )
 
 func newTestRegistry() registry.Registry {

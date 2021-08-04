@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/auth"
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/errors"
-	"fmgo.io/microv2/go-micro/v2/metadata"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/auth"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/errors"
+	"github.com/haleluo/micro/v2/metadata"
+	"github.com/haleluo/micro/v2/server"
 )
 
 func TestWrapper(t *testing.T) {

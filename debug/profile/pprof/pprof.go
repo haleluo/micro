@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/debug/profile"
+	"github.com/haleluo/micro/v2/debug/profile"
 )
 
 type profiler struct {

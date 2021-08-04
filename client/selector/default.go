@@ -3,8 +3,8 @@ package selector
 import (
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/registry"
-	"fmgo.io/microv2/go-micro/v2/registry/cache"
+	"github.com/haleluo/micro/v2/registry"
+	"github.com/haleluo/micro/v2/registry/cache"
 )
 
 type registrySelector struct {

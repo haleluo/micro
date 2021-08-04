@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/runtime/local/build"
-	"fmgo.io/microv2/go-micro/v2/runtime/local/process"
-	proc "fmgo.io/microv2/go-micro/v2/runtime/local/process/os"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/runtime/local/build"
+	"github.com/haleluo/micro/v2/runtime/local/process"
+	proc "github.com/haleluo/micro/v2/runtime/local/process/os"
 )
 
 type service struct {

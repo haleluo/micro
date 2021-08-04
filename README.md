@@ -51,7 +51,7 @@ are pluggable and allows Go Micro to be runtime agnostic. You can plugin any und
 To make use of Go Micro
 
 ```golang
-import "fmgo.io/microv2/go-micro/v2"
+import "github.com/haleluo/micro/v2"
 
 // create a new service
 service := micro.NewService(

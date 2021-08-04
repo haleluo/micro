@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-	"fmgo.io/microv2/cli/v2"
-	"fmgo.io/microv2/go-micro/v2/agent/input"
+	"github.com/haleluo/micro-cli/v2"
+	"github.com/haleluo/micro/v2/agent/input"
 )
 
 type telegramInput struct {

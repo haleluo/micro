@@ -3,7 +3,7 @@ package nats
 import (
 	"context"
 
-	"fmgo.io/microv2/go-micro/v2/broker"
+	"github.com/haleluo/micro/v2/broker"
 )
 
 // setBrokerOption returns a function to setup a context with given value

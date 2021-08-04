@@ -4,13 +4,13 @@ package api
 import (
 	"net/http"
 
-	goapi "fmgo.io/microv2/go-micro/v2/api"
-	"fmgo.io/microv2/go-micro/v2/api/handler"
-	api "fmgo.io/microv2/go-micro/v2/api/proto"
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/client/selector"
-	"fmgo.io/microv2/go-micro/v2/errors"
-	"fmgo.io/microv2/go-micro/v2/util/ctx"
+	goapi "github.com/haleluo/micro/v2/api"
+	"github.com/haleluo/micro/v2/api/handler"
+	api "github.com/haleluo/micro/v2/api/proto"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/client/selector"
+	"github.com/haleluo/micro/v2/errors"
+	"github.com/haleluo/micro/v2/util/ctx"
 )
 
 type apiHandler struct {

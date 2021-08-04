@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/auth"
-	"fmgo.io/microv2/go-micro/v2/auth/token"
+	"github.com/haleluo/micro/v2/auth"
+	"github.com/haleluo/micro/v2/auth/token"
 )
 
 func TestGenerate(t *testing.T) {

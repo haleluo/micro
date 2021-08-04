@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/broker"
-	"fmgo.io/microv2/go-micro/v2/client/selector"
-	"fmgo.io/microv2/go-micro/v2/codec"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/broker"
+	"github.com/haleluo/micro/v2/client/selector"
+	"github.com/haleluo/micro/v2/codec"
+	"github.com/haleluo/micro/v2/registry"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 type Options struct {

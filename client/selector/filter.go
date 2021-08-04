@@ -1,7 +1,7 @@
 package selector
 
 import (
-	"fmgo.io/microv2/go-micro/v2/registry"
+	"github.com/haleluo/micro/v2/registry"
 )
 
 // FilterEndpoint is an endpoint based Select Filter which will

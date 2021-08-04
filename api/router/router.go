@@ -4,7 +4,7 @@ package router
 import (
 	"net/http"
 
-	"fmgo.io/microv2/go-micro/v2/api"
+	"github.com/haleluo/micro/v2/api"
 )
 
 // Router is used to determine an endpoint for a request

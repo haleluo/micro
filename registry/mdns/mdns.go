@@ -4,7 +4,7 @@ package mdns
 import (
 	"context"
 
-	"fmgo.io/microv2/go-micro/v2/registry"
+	"github.com/haleluo/micro/v2/registry"
 )
 
 // NewRegistry returns a new mdns registry

@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/hpcloud/tail"
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/runtime/local/git"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/runtime/local/git"
 )
 
 // defaultNamespace to use if not provided as an option

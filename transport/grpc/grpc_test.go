@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 func expectedPort(t *testing.T, expected string, lsn transport.Listener) {

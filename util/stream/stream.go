@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/codec"
-	"fmgo.io/microv2/go-micro/v2/metadata"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/codec"
+	"github.com/haleluo/micro/v2/metadata"
+	"github.com/haleluo/micro/v2/server"
 )
 
 type Stream interface {

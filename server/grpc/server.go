@@ -14,8 +14,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/server"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2/logger"
+	"github.com/haleluo/micro/v2/logger"
 )
 
 func TestTokenize(t *testing.T) {

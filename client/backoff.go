@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/util/backoff"
+	"github.com/haleluo/micro/v2/util/backoff"
 )
 
 type BackoffFunc func(ctx context.Context, req Request, attempts int) (time.Duration, error)

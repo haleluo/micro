@@ -4,8 +4,8 @@ import (
 	"context"
 	"crypto/tls"
 
-	"fmgo.io/microv2/go-micro/v2/codec"
-	"fmgo.io/microv2/go-micro/v2/registry"
+	"github.com/haleluo/micro/v2/codec"
+	"github.com/haleluo/micro/v2/registry"
 )
 
 type Options struct {

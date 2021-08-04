@@ -18,8 +18,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"fmgo.io/microv2/go-micro/v2/codec"
-	merrors "fmgo.io/microv2/go-micro/v2/errors"
+	"github.com/haleluo/micro/v2/codec"
+	merrors "github.com/haleluo/micro/v2/errors"
 )
 
 var (

@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"fmgo.io/microv2/go-micro/v2/registry"
+	"github.com/haleluo/micro/v2/registry"
 )
 
 func addNodes(old, neu []*registry.Node) []*registry.Node {

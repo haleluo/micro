@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/auth"
+	"github.com/haleluo/micro/v2/auth"
 )
 
 var (

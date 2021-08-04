@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"strings"
 
-	"fmgo.io/microv2/go-micro/v2/api"
-	"fmgo.io/microv2/go-micro/v2/api/handler"
-	"fmgo.io/microv2/go-micro/v2/client/selector"
+	"github.com/haleluo/micro/v2/api"
+	"github.com/haleluo/micro/v2/api/handler"
+	"github.com/haleluo/micro/v2/client/selector"
 )
 
 const (

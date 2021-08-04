@@ -1,7 +1,7 @@
 package nats
 
 import (
-	"fmgo.io/microv2/go-micro/v2/broker"
+	"github.com/haleluo/micro/v2/broker"
 	nats "github.com/nats-io/nats.go"
 )
 

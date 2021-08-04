@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/store"
+	"github.com/haleluo/micro/v2/store"
 	bolt "go.etcd.io/bbolt"
 )
 

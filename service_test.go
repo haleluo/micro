@@ -6,10 +6,10 @@ import (
 	"sync"
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2/client"
-	proto "fmgo.io/microv2/go-micro/v2/debug/service/proto"
-	"fmgo.io/microv2/go-micro/v2/registry/memory"
-	"fmgo.io/microv2/go-micro/v2/util/test"
+	"github.com/haleluo/micro/v2/client"
+	proto "github.com/haleluo/micro/v2/debug/service/proto"
+	"github.com/haleluo/micro/v2/registry/memory"
+	"github.com/haleluo/micro/v2/util/test"
 )
 
 func testShutdown(wg *sync.WaitGroup, cancel func()) {

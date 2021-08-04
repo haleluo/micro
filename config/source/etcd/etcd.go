@@ -8,7 +8,7 @@ import (
 
 	cetcd "go.etcd.io/etcd/clientv3"
 	"go.etcd.io/etcd/mvcc/mvccpb"
-	"fmgo.io/microv2/go-micro/v2/config/source"
+	"github.com/haleluo/micro/v2/config/source"
 )
 
 // Currently a single etcd reader

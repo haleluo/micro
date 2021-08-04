@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"path"
 
-	"fmgo.io/microv2/go-micro/v2/errors"
-	"fmgo.io/microv2/go-micro/v2/proxy"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/errors"
+	"github.com/haleluo/micro/v2/proxy"
+	"github.com/haleluo/micro/v2/server"
 )
 
 // Proxy will proxy rpc requests as http POST requests. It is a server.Proxy

@@ -2,7 +2,7 @@
 package local
 
 import (
-	"fmgo.io/microv2/go-micro/v2/runtime"
+	"github.com/haleluo/micro/v2/runtime"
 )
 
 // NewRuntime returns a new local runtime

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/codec"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/codec"
 )
 
 type grpcRequest struct {

@@ -3,7 +3,7 @@ package grpc
 import (
 	"context"
 
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/server"
 )
 
 func setServerOption(k, v interface{}) server.Option {

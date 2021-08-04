@@ -3,8 +3,8 @@ package service
 import (
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/debug"
-	"fmgo.io/microv2/go-micro/v2/debug/log"
+	"github.com/haleluo/micro/v2/debug"
+	"github.com/haleluo/micro/v2/debug/log"
 )
 
 type serviceLog struct {

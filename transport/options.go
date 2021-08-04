@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/codec"
+	"github.com/haleluo/micro/v2/codec"
 )
 
 type Options struct {

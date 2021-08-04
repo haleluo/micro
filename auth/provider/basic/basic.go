@@ -1,7 +1,7 @@
 package basic
 
 import (
-	"fmgo.io/microv2/go-micro/v2/auth/provider"
+	"github.com/haleluo/micro/v2/auth/provider"
 )
 
 // NewProvider returns an initialised basic provider

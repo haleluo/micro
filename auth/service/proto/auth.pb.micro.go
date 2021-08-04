@@ -11,9 +11,9 @@ import (
 
 import (
 	context "context"
-	api "fmgo.io/microv2/go-micro/v2/api"
-	client "fmgo.io/microv2/go-micro/v2/client"
-	server "fmgo.io/microv2/go-micro/v2/server"
+	api "github.com/haleluo/micro/v2/api"
+	client "github.com/haleluo/micro/v2/client"
+	server "github.com/haleluo/micro/v2/server"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

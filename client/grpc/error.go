@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"fmgo.io/microv2/go-micro/v2/errors"
+	"github.com/haleluo/micro/v2/errors"
 	"google.golang.org/grpc/status"
 )
 

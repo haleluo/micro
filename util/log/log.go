@@ -1,5 +1,5 @@
 // Package log is a global internal logger
-// DEPRECATED: this is frozen package, use fmgo.io/microv2/go-micro/v2/logger
+// DEPRECATED: this is frozen package, use github.com/haleluo/micro/v2/logger
 package log
 
 import (
@@ -7,8 +7,8 @@ import (
 	"os"
 	"sync/atomic"
 
-	dlog "fmgo.io/microv2/go-micro/v2/debug/log"
-	nlog "fmgo.io/microv2/go-micro/v2/logger"
+	dlog "github.com/haleluo/micro/v2/debug/log"
+	nlog "github.com/haleluo/micro/v2/logger"
 )
 
 // level is a log level

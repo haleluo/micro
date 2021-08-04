@@ -1,9 +1,9 @@
 package config
 
 import (
-	"fmgo.io/microv2/go-micro/v2/config/loader"
-	"fmgo.io/microv2/go-micro/v2/config/reader"
-	"fmgo.io/microv2/go-micro/v2/config/source"
+	"github.com/haleluo/micro/v2/config/loader"
+	"github.com/haleluo/micro/v2/config/reader"
+	"github.com/haleluo/micro/v2/config/source"
 )
 
 // WithLoader sets the loader for manager config

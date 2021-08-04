@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 func TestMemoryTransport(t *testing.T) {

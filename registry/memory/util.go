@@ -3,7 +3,7 @@ package memory
 import (
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/registry"
+	"github.com/haleluo/micro/v2/registry"
 )
 
 func serviceToRecord(s *registry.Service, ttl time.Duration) *record {

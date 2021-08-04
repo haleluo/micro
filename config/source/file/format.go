@@ -3,7 +3,7 @@ package file
 import (
 	"strings"
 
-	"fmgo.io/microv2/go-micro/v2/config/encoder"
+	"github.com/haleluo/micro/v2/config/encoder"
 )
 
 func format(p string, e encoder.Encoder) string {

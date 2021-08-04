@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"fmgo.io/microv2/go-micro/v2/codec"
+	"github.com/haleluo/micro/v2/codec"
 )
 
 type jsonCodec struct {

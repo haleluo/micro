@@ -4,8 +4,8 @@ package memory
 import (
 	"fmt"
 
-	"fmgo.io/microv2/go-micro/v2/debug/log"
-	"fmgo.io/microv2/go-micro/v2/util/ring"
+	"github.com/haleluo/micro/v2/debug/log"
+	"github.com/haleluo/micro/v2/util/ring"
 )
 
 var (

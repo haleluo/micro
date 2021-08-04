@@ -5,11 +5,11 @@ import (
 	"context"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/client/grpc"
-	"fmgo.io/microv2/go-micro/v2/errors"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	pb "fmgo.io/microv2/go-micro/v2/registry/service/proto"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/client/grpc"
+	"github.com/haleluo/micro/v2/errors"
+	"github.com/haleluo/micro/v2/registry"
+	pb "github.com/haleluo/micro/v2/registry/service/proto"
 )
 
 var (

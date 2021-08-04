@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strconv"
 
-	"fmgo.io/microv2/go-micro/v2/runtime/local/process"
+	"github.com/haleluo/micro/v2/runtime/local/process"
 )
 
 func (p *Process) Exec(exe *process.Executable) error {

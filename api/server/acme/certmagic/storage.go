@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/caddyserver/certmagic"
-	"fmgo.io/microv2/go-micro/v2/store"
-	"fmgo.io/microv2/go-micro/v2/sync"
+	"github.com/haleluo/micro/v2/store"
+	"github.com/haleluo/micro/v2/sync"
 )
 
 // File represents a "File" that will be stored in store.Store - the contents and last modified time

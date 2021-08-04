@@ -2,7 +2,7 @@
 package build
 
 import (
-	"fmgo.io/microv2/go-micro/v2/runtime/local/source"
+	"github.com/haleluo/micro/v2/runtime/local/source"
 )
 
 // Builder builds binaries

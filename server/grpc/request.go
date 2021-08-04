@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"fmgo.io/microv2/go-micro/v2/codec"
-	"fmgo.io/microv2/go-micro/v2/codec/bytes"
+	"github.com/haleluo/micro/v2/codec"
+	"github.com/haleluo/micro/v2/codec/bytes"
 )
 
 type rpcRequest struct {

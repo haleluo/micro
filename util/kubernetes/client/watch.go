@@ -7,7 +7,7 @@ import (
 	"errors"
 	"net/http"
 
-	"fmgo.io/microv2/go-micro/v2/util/kubernetes/api"
+	"github.com/haleluo/micro/v2/util/kubernetes/api"
 )
 
 const (

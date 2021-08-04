@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/runtime"
-	pb "fmgo.io/microv2/go-micro/v2/runtime/service/proto"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/runtime"
+	pb "github.com/haleluo/micro/v2/runtime/service/proto"
 )
 
 type svc struct {

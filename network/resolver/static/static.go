@@ -2,7 +2,7 @@
 package registry
 
 import (
-	"fmgo.io/microv2/go-micro/v2/network/resolver"
+	"github.com/haleluo/micro/v2/network/resolver"
 )
 
 // Resolver returns a static list of nodes. In the event the node list

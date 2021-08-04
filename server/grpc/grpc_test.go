@@ -5,19 +5,19 @@ import (
 	"fmt"
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2"
-	bmemory "fmgo.io/microv2/go-micro/v2/broker/memory"
-	"fmgo.io/microv2/go-micro/v2/client"
-	gcli "fmgo.io/microv2/go-micro/v2/client/grpc"
-	"fmgo.io/microv2/go-micro/v2/errors"
-	rmemory "fmgo.io/microv2/go-micro/v2/registry/memory"
-	"fmgo.io/microv2/go-micro/v2/server"
-	gsrv "fmgo.io/microv2/go-micro/v2/server/grpc"
-	tgrpc "fmgo.io/microv2/go-micro/v2/transport/grpc"
+	"github.com/haleluo/micro/v2"
+	bmemory "github.com/haleluo/micro/v2/broker/memory"
+	"github.com/haleluo/micro/v2/client"
+	gcli "github.com/haleluo/micro/v2/client/grpc"
+	"github.com/haleluo/micro/v2/errors"
+	rmemory "github.com/haleluo/micro/v2/registry/memory"
+	"github.com/haleluo/micro/v2/server"
+	gsrv "github.com/haleluo/micro/v2/server/grpc"
+	tgrpc "github.com/haleluo/micro/v2/transport/grpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 
-	pb "fmgo.io/microv2/go-micro/v2/server/grpc/proto"
+	pb "github.com/haleluo/micro/v2/server/grpc/proto"
 )
 
 // server is used to implement helloworld.GreeterServer.

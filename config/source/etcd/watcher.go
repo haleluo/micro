@@ -7,7 +7,7 @@ import (
 	"time"
 
 	cetcd "go.etcd.io/etcd/clientv3"
-	"fmgo.io/microv2/go-micro/v2/config/source"
+	"github.com/haleluo/micro/v2/config/source"
 )
 
 type watcher struct {

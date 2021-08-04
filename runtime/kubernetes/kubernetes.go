@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	log "fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/runtime"
-	"fmgo.io/microv2/go-micro/v2/util/kubernetes/client"
+	log "github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/runtime"
+	"github.com/haleluo/micro/v2/util/kubernetes/client"
 )
 
 // action to take on runtime service

@@ -2,8 +2,8 @@
 package service
 
 import (
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/server"
 )
 
 // Service is an interface for a micro service

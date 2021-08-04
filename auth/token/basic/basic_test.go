@@ -3,9 +3,9 @@ package basic
 import (
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2/auth"
-	"fmgo.io/microv2/go-micro/v2/auth/token"
-	"fmgo.io/microv2/go-micro/v2/store/memory"
+	"github.com/haleluo/micro/v2/auth"
+	"github.com/haleluo/micro/v2/auth/token"
+	"github.com/haleluo/micro/v2/store/memory"
 )
 
 func TestGenerate(t *testing.T) {

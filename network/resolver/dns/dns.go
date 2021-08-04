@@ -5,7 +5,7 @@ import (
 	"context"
 	"net"
 
-	"fmgo.io/microv2/go-micro/v2/network/resolver"
+	"github.com/haleluo/micro/v2/network/resolver"
 	"github.com/miekg/dns"
 )
 

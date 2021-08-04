@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/imdario/mergo"
-	"fmgo.io/microv2/go-micro/v2/config/source"
+	"github.com/haleluo/micro/v2/config/source"
 )
 
 var (

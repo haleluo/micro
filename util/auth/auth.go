@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/auth"
-	"fmgo.io/microv2/go-micro/v2/logger"
+	"github.com/haleluo/micro/v2/auth"
+	"github.com/haleluo/micro/v2/logger"
 )
 
 // Generate generates a service account for and continually

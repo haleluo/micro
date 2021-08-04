@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/config/source"
-	"fmgo.io/microv2/go-micro/v2/config/source/env"
-	"fmgo.io/microv2/go-micro/v2/config/source/file"
-	"fmgo.io/microv2/go-micro/v2/config/source/memory"
+	"github.com/haleluo/micro/v2/config/source"
+	"github.com/haleluo/micro/v2/config/source/env"
+	"github.com/haleluo/micro/v2/config/source/file"
+	"github.com/haleluo/micro/v2/config/source/memory"
 )
 
 func createFileForIssue18(t *testing.T, content string) *os.File {

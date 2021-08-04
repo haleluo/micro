@@ -3,7 +3,7 @@ package mock
 import (
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/server"
 )
 
 func TestMockServer(t *testing.T) {

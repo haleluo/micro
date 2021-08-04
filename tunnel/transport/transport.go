@@ -4,8 +4,8 @@ package transport
 import (
 	"context"
 
-	"fmgo.io/microv2/go-micro/v2/transport"
-	"fmgo.io/microv2/go-micro/v2/tunnel"
+	"github.com/haleluo/micro/v2/transport"
+	"github.com/haleluo/micro/v2/tunnel"
 )
 
 type tunTransport struct {

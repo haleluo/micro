@@ -1,8 +1,8 @@
 package service
 
 import (
-	"fmgo.io/microv2/go-micro/v2/config/source"
-	proto "fmgo.io/microv2/go-micro/v2/config/source/service/proto"
+	"github.com/haleluo/micro/v2/config/source"
+	proto "github.com/haleluo/micro/v2/config/source/service/proto"
 )
 
 type watcher struct {

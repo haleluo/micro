@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	dlog "fmgo.io/microv2/go-micro/v2/debug/log"
+	dlog "github.com/haleluo/micro/v2/debug/log"
 )
 
 func init() {

@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/google/uuid"
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/registry"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/registry"
 )
 
 // Options are router options

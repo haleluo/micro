@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"fmgo.io/microv2/go-micro/v2/debug/log"
+	"github.com/haleluo/micro/v2/debug/log"
 )
 
 func write(l log.Record) error {

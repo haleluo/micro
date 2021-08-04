@@ -4,7 +4,7 @@ package reader
 import (
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/config/source"
+	"github.com/haleluo/micro/v2/config/source"
 )
 
 // Reader is an interface for merging changesets

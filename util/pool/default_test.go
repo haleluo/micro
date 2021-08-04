@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/transport"
-	"fmgo.io/microv2/go-micro/v2/transport/memory"
+	"github.com/haleluo/micro/v2/transport"
+	"github.com/haleluo/micro/v2/transport/memory"
 )
 
 func testPool(t *testing.T, size int, ttl time.Duration) {

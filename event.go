@@ -3,7 +3,7 @@ package micro
 import (
 	"context"
 
-	"fmgo.io/microv2/go-micro/v2/client"
+	"github.com/haleluo/micro/v2/client"
 )
 
 type event struct {

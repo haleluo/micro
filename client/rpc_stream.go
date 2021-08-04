@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"fmgo.io/microv2/go-micro/v2/codec"
+	"github.com/haleluo/micro/v2/codec"
 )
 
 // Implements the streamer interface

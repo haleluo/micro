@@ -12,11 +12,11 @@ import (
 	"github.com/gobwas/httphead"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
-	"fmgo.io/microv2/go-micro/v2/api"
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/client/selector"
-	raw "fmgo.io/microv2/go-micro/v2/codec/bytes"
-	"fmgo.io/microv2/go-micro/v2/logger"
+	"github.com/haleluo/micro/v2/api"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/client/selector"
+	raw "github.com/haleluo/micro/v2/codec/bytes"
+	"github.com/haleluo/micro/v2/logger"
 )
 
 // serveWebsocket will stream rpc back over websockets assuming json

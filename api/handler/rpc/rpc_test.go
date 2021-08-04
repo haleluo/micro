@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	go_api "fmgo.io/microv2/go-micro/v2/api/proto"
+	go_api "github.com/haleluo/micro/v2/api/proto"
 )
 
 func TestRequestPayloadFromRequest(t *testing.T) {

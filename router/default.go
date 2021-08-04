@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/registry"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/registry"
 )
 
 var (

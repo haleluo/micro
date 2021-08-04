@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 // Handle registers the handler for the given pattern.

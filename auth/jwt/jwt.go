@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/auth"
-	"fmgo.io/microv2/go-micro/v2/auth/rules"
-	"fmgo.io/microv2/go-micro/v2/auth/token"
-	jwtToken "fmgo.io/microv2/go-micro/v2/auth/token/jwt"
+	"github.com/haleluo/micro/v2/auth"
+	"github.com/haleluo/micro/v2/auth/rules"
+	"github.com/haleluo/micro/v2/auth/token"
+	jwtToken "github.com/haleluo/micro/v2/auth/token/jwt"
 )
 
 // NewAuth returns a new instance of the Auth service

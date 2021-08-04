@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/transport"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/transport"
 )
 
 // session is our pseudo session for transport.Socket

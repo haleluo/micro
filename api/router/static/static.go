@@ -8,13 +8,13 @@ import (
 	"strings"
 	"sync"
 
-	"fmgo.io/microv2/go-micro/v2/api"
-	"fmgo.io/microv2/go-micro/v2/api/router"
-	"fmgo.io/microv2/go-micro/v2/api/router/util"
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/metadata"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	rutil "fmgo.io/microv2/go-micro/v2/util/registry"
+	"github.com/haleluo/micro/v2/api"
+	"github.com/haleluo/micro/v2/api/router"
+	"github.com/haleluo/micro/v2/api/router/util"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/metadata"
+	"github.com/haleluo/micro/v2/registry"
+	rutil "github.com/haleluo/micro/v2/util/registry"
 )
 
 type endpoint struct {

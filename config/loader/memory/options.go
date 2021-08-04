@@ -1,9 +1,9 @@
 package memory
 
 import (
-	"fmgo.io/microv2/go-micro/v2/config/loader"
-	"fmgo.io/microv2/go-micro/v2/config/reader"
-	"fmgo.io/microv2/go-micro/v2/config/source"
+	"github.com/haleluo/micro/v2/config/loader"
+	"github.com/haleluo/micro/v2/config/reader"
+	"github.com/haleluo/micro/v2/config/source"
 )
 
 // WithSource appends a source to list of sources

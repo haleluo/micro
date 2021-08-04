@@ -8,10 +8,10 @@ import (
 	"sync"
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2"
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/registry/memory"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/registry/memory"
+	"github.com/haleluo/micro/v2/server"
 )
 
 type testHandler struct{}

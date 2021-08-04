@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"fmgo.io/microv2/cli/v2"
-	"fmgo.io/microv2/go-micro/v2/agent/input"
+	"github.com/haleluo/micro-cli/v2"
+	"github.com/haleluo/micro/v2/agent/input"
 	"github.com/nlopes/slack"
 )
 

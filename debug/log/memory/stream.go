@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"fmgo.io/microv2/go-micro/v2/debug/log"
+	"github.com/haleluo/micro/v2/debug/log"
 )
 
 type logStream struct {

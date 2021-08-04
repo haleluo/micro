@@ -5,7 +5,7 @@ import (
 	"flag"
 	"strings"
 
-	"fmgo.io/microv2/cli/v2"
+	"github.com/haleluo/micro-cli/v2"
 )
 
 func copyFlag(name string, ff *flag.Flag, set *flag.FlagSet) {

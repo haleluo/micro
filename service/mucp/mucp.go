@@ -2,11 +2,11 @@
 package mucp
 
 import (
-	"fmgo.io/microv2/go-micro/v2/client"
-	cmucp "fmgo.io/microv2/go-micro/v2/client/mucp"
-	"fmgo.io/microv2/go-micro/v2/server"
-	smucp "fmgo.io/microv2/go-micro/v2/server/mucp"
-	"fmgo.io/microv2/go-micro/v2/service"
+	"github.com/haleluo/micro/v2/client"
+	cmucp "github.com/haleluo/micro/v2/client/mucp"
+	"github.com/haleluo/micro/v2/server"
+	smucp "github.com/haleluo/micro/v2/server/mucp"
+	"github.com/haleluo/micro/v2/service"
 )
 
 type mucpService struct {

@@ -5,7 +5,7 @@ import (
 
 	"go.etcd.io/etcd/clientv3"
 	"go.etcd.io/etcd/mvcc/mvccpb"
-	"fmgo.io/microv2/go-micro/v2/config/encoder"
+	"github.com/haleluo/micro/v2/config/encoder"
 )
 
 func makeEvMap(e encoder.Encoder, data map[string]interface{}, kv []*clientv3.Event, stripPrefix string) map[string]interface{} {

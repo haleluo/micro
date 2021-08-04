@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"fmgo.io/microv2/go-micro/v2/api/handler"
-	proto "fmgo.io/microv2/go-micro/v2/api/proto"
-	"fmgo.io/microv2/go-micro/v2/util/ctx"
+	"github.com/haleluo/micro/v2/api/handler"
+	proto "github.com/haleluo/micro/v2/api/proto"
+	"github.com/haleluo/micro/v2/util/ctx"
 	"github.com/oxtoacart/bpool"
 )
 

@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2/broker"
-	bmemory "fmgo.io/microv2/go-micro/v2/broker/memory"
-	"fmgo.io/microv2/go-micro/v2/client"
-	rmemory "fmgo.io/microv2/go-micro/v2/registry/memory"
-	"fmgo.io/microv2/go-micro/v2/server"
-	tmemory "fmgo.io/microv2/go-micro/v2/transport/memory"
-	wrapper "fmgo.io/microv2/go-micro/v2/util/wrapper"
+	"github.com/haleluo/micro/v2/broker"
+	bmemory "github.com/haleluo/micro/v2/broker/memory"
+	"github.com/haleluo/micro/v2/client"
+	rmemory "github.com/haleluo/micro/v2/registry/memory"
+	"github.com/haleluo/micro/v2/server"
+	tmemory "github.com/haleluo/micro/v2/transport/memory"
+	wrapper "github.com/haleluo/micro/v2/util/wrapper"
 )
 
 type TestFoo struct {

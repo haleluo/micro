@@ -5,12 +5,12 @@ import (
 	"context"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/debug/log"
-	proto "fmgo.io/microv2/go-micro/v2/debug/service/proto"
-	"fmgo.io/microv2/go-micro/v2/debug/stats"
-	"fmgo.io/microv2/go-micro/v2/debug/trace"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/debug/log"
+	proto "github.com/haleluo/micro/v2/debug/service/proto"
+	"github.com/haleluo/micro/v2/debug/stats"
+	"github.com/haleluo/micro/v2/debug/trace"
+	"github.com/haleluo/micro/v2/server"
 )
 
 // NewHandler returns an instance of the Debug Handler

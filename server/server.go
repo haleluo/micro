@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"fmgo.io/microv2/go-micro/v2/codec"
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/registry"
-	signalutil "fmgo.io/microv2/go-micro/v2/util/signal"
+	"github.com/haleluo/micro/v2/codec"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/registry"
+	signalutil "github.com/haleluo/micro/v2/util/signal"
 )
 
 // Server is a simple micro server abstraction

@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"fmgo.io/microv2/go-micro/v2/logger"
-	"fmgo.io/microv2/go-micro/v2/util/kubernetes/api"
+	"github.com/haleluo/micro/v2/logger"
+	"github.com/haleluo/micro/v2/util/kubernetes/api"
 )
 
 var (

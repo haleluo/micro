@@ -4,8 +4,8 @@ import (
 	"sort"
 	"testing"
 
-	"fmgo.io/microv2/go-micro/v2/store"
-	"fmgo.io/microv2/go-micro/v2/store/memory"
+	"github.com/haleluo/micro/v2/store"
+	"github.com/haleluo/micro/v2/store/memory"
 	"github.com/stretchr/testify/assert"
 )
 

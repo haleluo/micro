@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/debug/service/handler"
-	"fmgo.io/microv2/go-micro/v2/proxy"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/debug/service/handler"
+	"github.com/haleluo/micro/v2/proxy"
+	"github.com/haleluo/micro/v2/server"
 )
 
 // Server is a proxy muxer that incudes the use of the DefaultHandler

@@ -4,8 +4,8 @@ package network
 import (
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/server"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/server"
 )
 
 var (

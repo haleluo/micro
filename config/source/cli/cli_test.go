@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
-	"fmgo.io/microv2/cli/v2"
-	"fmgo.io/microv2/go-micro/v2"
-	"fmgo.io/microv2/go-micro/v2/config"
-	"fmgo.io/microv2/go-micro/v2/config/cmd"
-	"fmgo.io/microv2/go-micro/v2/config/source"
+	"github.com/haleluo/micro-cli/v2"
+	"github.com/haleluo/micro/v2"
+	"github.com/haleluo/micro/v2/config"
+	"github.com/haleluo/micro/v2/config/cmd"
+	"github.com/haleluo/micro/v2/config/source"
 )
 
 func TestCliSourceDefault(t *testing.T) {

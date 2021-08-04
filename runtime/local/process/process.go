@@ -4,7 +4,7 @@ package process
 import (
 	"io"
 
-	"fmgo.io/microv2/go-micro/v2/runtime/local/build"
+	"github.com/haleluo/micro/v2/runtime/local/build"
 )
 
 // Process manages a running process

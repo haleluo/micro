@@ -1,11 +1,10 @@
-module fmgo.io/microv2/go-micro/v2
+module github.com/haleluo/micro/v2
 
-go 1.13
+go 1.16
 
 replace github.com/imdario/mergo => github.com/imdario/mergo v0.3.8
 
 require (
-	fmgo.io/microv2/cli/v2 v2.2.0
 	github.com/BurntSushi/toml v0.3.1
 	github.com/bitly/go-simplejson v0.5.1-0.20200416141419-39a59b1b2866
 	github.com/bwmarrin/discordgo v0.22.0
@@ -27,6 +26,7 @@ require (
 	github.com/golang/protobuf v1.4.3
 	github.com/google/uuid v1.1.2
 	github.com/gorilla/handlers v1.5.1
+	github.com/haleluo/micro-cli/v2 v2.0.0-20210804113032-453a03792adc
 	github.com/hashicorp/hcl v1.0.0
 	github.com/hpcloud/tail v1.0.1-0.20180514194441-a1dbeea552b7
 	github.com/imdario/mergo v0.3.11

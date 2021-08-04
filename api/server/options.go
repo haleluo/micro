@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"fmgo.io/microv2/go-micro/v2/api/resolver"
-	"fmgo.io/microv2/go-micro/v2/api/server/acme"
+	"github.com/haleluo/micro/v2/api/resolver"
+	"github.com/haleluo/micro/v2/api/server/acme"
 )
 
 type Option func(o *Options)

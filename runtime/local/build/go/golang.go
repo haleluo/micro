@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"fmgo.io/microv2/go-micro/v2/runtime/local/build"
+	"github.com/haleluo/micro/v2/runtime/local/build"
 )
 
 type Builder struct {

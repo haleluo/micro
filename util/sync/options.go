@@ -3,7 +3,7 @@ package sync
 import (
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/store"
+	"github.com/haleluo/micro/v2/store"
 )
 
 // Options represents Sync options

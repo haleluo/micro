@@ -1,6 +1,6 @@
 # Log
 
-DEPRECATED: use fmgo.io/microv2/go-micro/v2/logger interface
+DEPRECATED: use github.com/haleluo/micro/v2/logger interface
 
 This is the global logger for all micro based libraries.
 

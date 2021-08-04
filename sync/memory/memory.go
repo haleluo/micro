@@ -5,7 +5,7 @@ import (
 	gosync "sync"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/sync"
+	"github.com/haleluo/micro/v2/sync"
 )
 
 type memorySync struct {

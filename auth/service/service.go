@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/auth"
-	"fmgo.io/microv2/go-micro/v2/auth/rules"
-	pb "fmgo.io/microv2/go-micro/v2/auth/service/proto"
-	"fmgo.io/microv2/go-micro/v2/auth/token"
-	"fmgo.io/microv2/go-micro/v2/auth/token/jwt"
-	"fmgo.io/microv2/go-micro/v2/client"
+	"github.com/haleluo/micro/v2/auth"
+	"github.com/haleluo/micro/v2/auth/rules"
+	pb "github.com/haleluo/micro/v2/auth/service/proto"
+	"github.com/haleluo/micro/v2/auth/token"
+	"github.com/haleluo/micro/v2/auth/token/jwt"
+	"github.com/haleluo/micro/v2/client"
 )
 
 // svc is the service implementation of the Auth interface

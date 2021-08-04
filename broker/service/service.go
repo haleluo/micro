@@ -5,10 +5,10 @@ import (
 	"context"
 	"time"
 
-	"fmgo.io/microv2/go-micro/v2/broker"
-	pb "fmgo.io/microv2/go-micro/v2/broker/service/proto"
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/logger"
+	"github.com/haleluo/micro/v2/broker"
+	pb "github.com/haleluo/micro/v2/broker/service/proto"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/logger"
 )
 
 type serviceBroker struct {

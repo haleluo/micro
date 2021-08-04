@@ -1,16 +1,16 @@
 package micro
 
 import (
-	"fmgo.io/microv2/go-micro/v2/client"
-	"fmgo.io/microv2/go-micro/v2/debug/trace"
-	"fmgo.io/microv2/go-micro/v2/server"
-	"fmgo.io/microv2/go-micro/v2/store"
+	"github.com/haleluo/micro/v2/client"
+	"github.com/haleluo/micro/v2/debug/trace"
+	"github.com/haleluo/micro/v2/server"
+	"github.com/haleluo/micro/v2/store"
 
 	// set defaults
-	gcli "fmgo.io/microv2/go-micro/v2/client/grpc"
-	memTrace "fmgo.io/microv2/go-micro/v2/debug/trace/memory"
-	gsrv "fmgo.io/microv2/go-micro/v2/server/grpc"
-	memoryStore "fmgo.io/microv2/go-micro/v2/store/memory"
+	gcli "github.com/haleluo/micro/v2/client/grpc"
+	memTrace "github.com/haleluo/micro/v2/debug/trace/memory"
+	gsrv "github.com/haleluo/micro/v2/server/grpc"
+	memoryStore "github.com/haleluo/micro/v2/store/memory"
 )
 
 func init() {
